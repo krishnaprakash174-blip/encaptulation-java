@@ -29,7 +29,7 @@ public class EncaptulationinJava {
             System.out.print("Choose the one : ");
             int choice = sc.nextInt();
             if(choice == 1) {
-                BankClass sbi = new BankClass(262002, 850000, "Krishna Prakash", "iob");
+                BankClass iob = new BankClass(620021987, 8500000, "Krishna Prakash", "iob");
                 System.out.println("Register Successfully");
                 while(true) {
                     System.out.println("1.getbalance");
